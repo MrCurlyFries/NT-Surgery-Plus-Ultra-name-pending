@@ -1,0 +1,7 @@
+changelog
+
+Added ultrasonic cleaner perk (ntsp_ultrasoniccleaner) (has not been added to tree)
+added above perk to sterility check in humanupdate.lua
+
+
+
