@@ -229,8 +229,9 @@
 	 <Talent identifier="ntsp_ultrasoniccleaner">
       <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="7,0" sheetelementsize="128,128" />
       <Description tag="talentdescription.ntsp_rnr" />
-      <Description tag="talentdescription.ntsp_sterlise" />
+    <Description tag="talentdescription.ntsp_sterlise" >
       <Replace tag="[amount]" value="30" color="gui.green"/>
+    </Description>
     </Talent>
     <Talent identifier="ntsp_underpressure">
       <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="3,0" sheetelementsize="128,128" />

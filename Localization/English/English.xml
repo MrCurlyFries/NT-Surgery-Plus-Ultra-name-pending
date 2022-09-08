@@ -64,7 +64,7 @@
   <talentdescription.ntsp_bedsidemanner>Patients next to you passively heal at an accelerated rate. The effect is doubled if they are laying in bed.</talentdescription.ntsp_bedsidemanner>
   <talentname.ntsp_ultrasoniccleaner>Ultrasonic Cleaner</talentname.ntsp_ultrasoniccleaner>
   <talentdescription.ntsp_rnr>Drainages, endovascular balloons and needles no longer get consumed when you use them.</talentdescription.ntsp_rnr>
-  <talentdescription.ntsp_sterlise>Gain [amount] to sterility checks, less sepsis - horray!</talentdescription.ntsp_sterlise>
+  <talentdescription.ntsp_sterlise>Gain [amount] bonus to sterility checks, less sepsis - horray!</talentdescription.ntsp_sterlise>
   <talentname.ntsp_underpressure>Under pressure</talentname.ntsp_underpressure>
   <talentdescription.ntsp_underpressure>Unconscious patients next to you gain [amount]% bloodloss, organ damage and neurotrauma resistance.</talentdescription.ntsp_underpressure>
   <talentname.ntsp_rapiddeoployment>Rapid deployment</talentname.ntsp_rapiddeoployment>
@@ -76,7 +76,7 @@
   <talentname.ntsp_homecarepackage>Preperation Package</talentname.ntsp_homecarepackage>
   <talentdescription.ntsp_homecarepackage>At the start of every round, gain:</talentdescription.ntsp_homecarepackage>
   <talentname.ntsp_selfcare>Self Care</talentname.ntsp_selfcare>
-  <talentdescription.ntsp_selfcarepsychosis:>Gain [50]% [affliction] resistance</talentdescription.ntsp_selfcarepsychosis>
-  <talentdescription.ntsp_selfcareunlocktree:>Gain the talents you haven't unlocked in this tree.</talentdescription.ntsp_selfcareunlocktree>
+  <talentdescription.ntsp_selfcarepsychosis>Gain [amount]% [affliction] resistance</talentdescription.ntsp_selfcarepsychosis>
+  <talentdescription.ntsp_selfcareunlocktree>Gain the talents you haven't unlocked in this tree.</talentdescription.ntsp_selfcareunlocktree>
   <!-- <talentdescription.ntsp_selfcarepsychosis:>Gain 50% psychosis resistance</talentdescription.ntsp_selfcarepsychosis> this will be for the self use medical items-->
 </infotexts>
