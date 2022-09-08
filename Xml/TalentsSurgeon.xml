@@ -135,25 +135,21 @@
       </AbilityGroupEffect>
       <AddedRecipe itemidentifier="aed" />
     </Talent>
-    <Talent identifier="ntsp_frankenstein">
+    <Talent identifier="ntsp_selfcare">
       <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="3,0" sheetelementsize="128,128" />
-      <Description tag="talentdescription.additionalresistanceself">
+      <Description tag="talentdescription.ntsp_selfcarepsychosis">
         <Replace tag="[amount]" value="50" color="gui.green" />
         <Replace tag="[affliction]" value="afflictionname.psychosis" color="gui.orange" />
       </Description>
-      <Description tag="talentdescription.unlockrecipe">
-        <Replace tag="[itemname]" value="entityname.brainjar" color="gui.orange" />
-      </Description>
-      <Description tag="talentdescription.unlockrecipe">
-        <Replace tag="[itemname]" value="entityname.artificialbrain" color="gui.orange" />
-      </Description>
+        <Description tag="talentdescription.ntsp_selfcareunlocktree" />
       <AbilityGroupEffect abilityeffecttype="None">
-        <Abilities>
-          <CharacterAbilityGiveResistance resistance="psychosis" multiplier="0.5" />
-        </Abilities>
-      </AbilityGroupEffect>
-      <AddedRecipe itemidentifier="brainjar" />
-      <AddedRecipe itemidentifier="artificialbrain" />
+      <Abilities>
+        <CharacterAbilityUnlockTree/>
+        <CharacterAbilityGiveResistance resistance="psychosis" multiplier="0.5" />
+      </Abilities>
+    </AbilityGroupEffect>
+      <!-- <AddedRecipe itemidentifier="brainjar" />
+      <AddedRecipe itemidentifier="artificialbrain" /> -->
     </Talent>
     <Talent identifier="ntsp_autoimmune">
       <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="4,0" sheetelementsize="128,128" />
@@ -232,11 +228,9 @@
     </Talent>
 	 <Talent identifier="ntsp_ultrasoniccleaner">
       <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="7,0" sheetelementsize="128,128" />
-      <Description tag="talentdescription.ntsp_ultrasoniccleaner" />
-    </Talent>
-    <Talent identifier="ntsp_rinseandrepeat">
-      <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="7,1" sheetelementsize="128,128" />
-      <Description tag="talentdescription.ntsp_rinseandrepeat" />
+      <Description tag="talentdescription.ntsp_rnr" />
+      <Description tag="talentdescription.ntsp_sterlise" />
+      <Replace tag="[amount]" value="30" color="gui.green"/>
     </Talent>
     <Talent identifier="ntsp_underpressure">
       <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="3,0" sheetelementsize="128,128" />

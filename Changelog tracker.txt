@@ -1,5 +1,16 @@
 changelog
 
-Added ultrasonic cleaner perk (ntsp_ultrasoniccleaner) (has not been added to tree)
+Added ultrasonic cleaner perk (ntsp_ultrasoniccleaner)
+merged ntsp_ultrasoniccleaner and ntsp_rinseandrepeat
+
+Added Ultrasonic Cleaner talent in the T1 section of the Dabbling Pharmacist tree
+Gives a bonus 30 to base sterility for surgery
+You now do not consume surgical equipment, like drainages, endovascular balloons and needles.
+
 added above perk to sterility check in humanupdate.lua
+
+Added Self Care talent in the T4 section of the Dabbling Pharmacist tree
+Currently gives 50% psychosis resistance and gives all skills in the underlying tree.
+looking into buffing the potency of medical items specifically applied to self.
+
 

@@ -9,31 +9,31 @@
           <!--<TalentOption identifier="ntsp_humanmachine" />-->
         </TalentOptions>
         <TalentOptions>
-		  <TalentOption identifier="ntsp_underpressure" />
+		      <TalentOption identifier="ntsp_underpressure" />
           <!--<TalentOption identifier="ntsp_firstaidtraining" />-->
-		  <TalentOption identifier="ntsp_fisharespecimens" />
+		      <TalentOption identifier="ntsp_fisharespecimens" />
         </TalentOptions>
         <TalentOptions>
-			<TalentOption identifier="ntsp_surgeonsintuition" />
-			<TalentOption identifier="ntsp_unspecialisedspecialist" />
+			    <TalentOption identifier="ntsp_surgeonsintuition" />
+			    <TalentOption identifier="ntsp_unspecialisedspecialist" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="ntsp_frankenstein" />
+          <TalentOption identifier="ntsp_brucereitzperk" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="dabblingpharmacist">
         <TalentOptions>
-          <TalentOption identifier="ntsp_rinseandrepeat" />
+          <TalentOption identifier="ntsp_ultrasoniccleaner" />
         </TalentOptions>
         <TalentOptions>
            <TalentOption identifier="ntsp_homecarepackage" />    
         </TalentOptions>
         <TalentOptions>
-		  <TalentOption identifier="ntsp_mannitol" />
+		      <TalentOption identifier="ntsp_mannitol" />
           <TalentOption identifier="ntsp_experimental" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="ntsp_brucereitzperk" />
+          <TalentOption identifier="ntsp_selfcare" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="fieldsurgeon">

@@ -110,7 +110,7 @@ function NTSP.PostUpdateHuman(character)
     end
 
     -- rinse and repeat talent
-    if HF.HasTalent(character,"ntsp_rinseandrepeat") then
+    if HF.HasTalent(character,"ntsp_ultrasoniccleaner") then
         NTC.SetMultiplier(character,"drainageconsumechance",0)
         NTC.SetMultiplier(character,"balloonconsumechance",0)
         NTC.SetMultiplier(character,"needleconsumechance",0)

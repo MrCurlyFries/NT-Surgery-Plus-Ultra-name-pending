@@ -48,11 +48,12 @@ Tree 2 Dabbling Pharmacist (Pills here!)
 (Love to look into a botany flavoured talent, - home grown drugs!)
 
 -- Tier 1 --
-~Ultrasonic Cleaner~ **Added** (name is rinse and reuse, look into changing desc name perhaps?)
+~Ultrasonic Cleaner~ **Added**
 Drainages, endovascular balloons and needles no longer get consumed when you use them.
-+25 to sterility (will need to add into sterility check) (not yet added)
++30 to sterility
 
-~Homeopathy is real!~
+~Surgical Therapist~ (not added)
+Gives artifial brain recipe and brain in a jar
 Gain the pill cannister and pill box recipes
 Medical items you apply gain an additional 20% potency 
 (make non needle? make sure it works with pills, 
@@ -60,14 +61,18 @@ possibly with an extra potency bonus)
 (growth - or better yet - plant deconstruction yield modifier goes here?)
 
 
--- Tier 2 --
+-- Tier 2 -- **(Added)**
 ~Preperation Package~ (passive suture gain)
 Gain 3 sutures, a bandage and 1 opium a round
 (... can i add top surgery XD)
 
 
-~~
-
+~Top Surgery~ ---Will be added Later---
+Adds surgery method to change gender,
+adds hormone pills that give estrogen/testosterone buff
+testosterone gives melee damage buff
+estrogen gives dmg resistance
+taking too much of either will give organ damage and set gender
 
 -- Tier 3 --
 ~Unethical Sourcing~
@@ -90,7 +95,8 @@ Unlock all skills in this tree (see engineer talent tree method)
 Tree 3 Field Surgeon (Mostly unchanged) (fit in an aftercare joke?)
 -- Tier 1 --
 ~Rapid Deployment~*
-Gain and additional 50% Swimming Speed.
+You can drag characters at full speed.
+Gain an additional 50% Swimming Speed.
 Gain additional movement speed equal to 30% of your Surgery skill.
 
 -- Tier 2 --
