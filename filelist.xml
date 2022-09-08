@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Curly's NT Surgery Plus Ultra (name Pending)" modversion="A0.7" corepackage="False" steamworkshopid="2857967391" gameversion="0.18.15.0">
+<contentpackage name="Curly's NT Surgery Plus Ultra (name Pending)" modversion="A0.8" corepackage="False" steamworkshopid="2857967391" gameversion="0.18.15.0">
   <Afflictions file="%ModDir%/Xml/Afflictions.xml" />
   <Item file="%ModDir%/Xml/items.xml" />
   <Text file="%ModDir%/Localization/English/English.xml" />
