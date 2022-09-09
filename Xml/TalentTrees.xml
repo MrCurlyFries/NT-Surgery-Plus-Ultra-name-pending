@@ -24,6 +24,7 @@
       <SubTree identifier="dabblingpharmacist">
         <TalentOptions>
           <TalentOption identifier="ntsp_ultrasoniccleaner" />
+          <TalentOption identifier="ntsp_therapisttintraining" />
         </TalentOptions>
         <TalentOptions>
            <TalentOption identifier="ntsp_homecarepackage" />    
@@ -41,15 +42,16 @@
           <TalentOption identifier="ntsp_rapiddeoployment" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="ntsp_properfol" />
-          <TalentOption identifier="ntsp_firemanscarry" />
+          <!-- <TalentOption identifier="ntsp_properfol" /> -->
+          <TalentOption identifier="ntsp_captainresist" />
+          <TalentOption identifier="ntsp_fallenandcantgetup" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="ntsp_preventativepermit" />
-          <TalentOption identifier="ntsp_imadoctornota" />
+          <TalentOption identifier="ntsp_imasurgeonnota" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="ntsp_soothingsurgeon" />
+          <TalentOption identifier="ntsp_properfol" />
         </TalentOptions>
       </SubTree>
     </TalentTree>

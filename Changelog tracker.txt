@@ -1,16 +1,25 @@
 changelog
 
-Added ultrasonic cleaner perk (ntsp_ultrasoniccleaner)
-merged ntsp_ultrasoniccleaner and ntsp_rinseandrepeat
+Added ntsp_therapisttintraining to T2 Dabbling Pharmacist
+Which adds 20% hp and the artificial brain and brain in a jar recipes.
 
-Added Ultrasonic Cleaner talent in the T1 section of the Dabbling Pharmacist tree
-Gives a bonus 30 to base sterility for surgery
-You now do not consume surgical equipment, like drainages, endovascular balloons and needles.
+changed ntsp_properfol to also have ntsp_traumaticshock talents for T4 Field Surgeon
 
-added above perk to sterility check in humanupdate.lua
+Added I'm a Surgeon not a... Talent to T3 of Field Surgeon
+gives 15 to;
+Helm
+Electrical Engineering
+Mechanical Engineering
+Weapons
+aaaand Medical
 
-Added Self Care talent in the T4 section of the Dabbling Pharmacist tree
-Currently gives 50% psychosis resistance and gives all skills in the underlying tree.
-looking into buffing the potency of medical items specifically applied to self.
+added movenormallywhiledragging flag to the Rapid Deployment talent for T1 Field Surgeon
+- move at full speed while carrying people
 
+Added resistance Talents to T3 Field Surgeon
+Please stop shooting me for fun captain
+    Gives 25% resistance to lacerations and gunshot wounds
+I've fallen and I can't get up!
+    Gives 30% resistance to stuns and 25% resistance to blunt force trauma
 
+Buffed range of under pressure a small amount (to 200)

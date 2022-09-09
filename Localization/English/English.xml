@@ -50,12 +50,13 @@
   <talentdescription.ntsp_surgeonsintuition>Whenever you open an Medical (or alien) container for the first time, you have a [probability]% chance of finding additional items.</talentdescription.ntsp_surgeonsintuition>
   <talentname.ntsp_unspecialisedspecialist>Unspecialised Specialist</talentname.ntsp_unspecialisedspecialist>
   <talentdescription.ntsp_unspecialisedspecialist>Gain a bonus of [amount] to [skillname].</talentdescription.ntsp_unspecialisedspecialist>
-  <talentname.ntsp_firemanscarry>Rapid extraction</talentname.ntsp_firemanscarry>
-  <talentname.ntsp_properfol>Propofol professional</talentname.ntsp_properfol>
-  <talentdescription.ntsp_properfol>[itemname] that you administer instantly takes effect.</talentdescription.ntsp_properfol>
+  <talentname.ntsp_captainresist>Please stop shooting me for fun captain</talentname.ntsp_captainresist>
+  <talentname.ntsp_fallenandcantgetup>I've fallen and I can't get up!</talentname.ntsp_fallenandcantgetup>
+  <talentname.ntsp_dontyoudieonme>Don't you die on me soldier!</talentname.ntsp_dontyoudieonme>
+  <talentdescription.ntsp_dontyoudieonme>[itemname] that you administer instantly takes effect.</talentdescription.ntsp_dontyoudieonme>
   <talentname.ntsp_soothingsurgeon>Soothing surgeon</talentname.ntsp_soothingsurgeon>
   <talentdescription.ntsp_soothingsurgeon>People you operate on suffer less traumatic shock</talentdescription.ntsp_soothingsurgeon>
-  <talentname.ntsp_imadoctornota>I'm a doctor, not a...</talentname.ntsp_imadoctornota>
+  <talentname.ntsp_imasurgeonnota>I'm a surgeon, not a...</talentname.ntsp_imasurgeonnota>
   <talentname.ntsp_preventativepermit>Preventative permit</talentname.ntsp_preventativepermit>
   <talentdescription.ntsp_preventativepermit>The last person you ordered gains [physicalresistance]% damage resistance and is less likely to suffer serious injuries.</talentdescription.ntsp_preventativepermit>
   <talentname.ntsp_brucereitzperk>My name's Bruce... Reitz</talentname.ntsp_brucereitzperk>
@@ -69,6 +70,7 @@
   <talentdescription.ntsp_underpressure>Unconscious patients next to you gain [amount]% bloodloss, organ damage and neurotrauma resistance.</talentdescription.ntsp_underpressure>
   <talentname.ntsp_rapiddeoployment>Rapid deployment</talentname.ntsp_rapiddeoployment>
   <talentdescription.ntsp_rapiddeoployment>Gain additional movement speed equal to [skillpercentage]% of your surgery skill.</talentdescription.ntsp_rapiddeoployment>
+  <talentdescription.ntsp_rapiddeoploymentdrag>Drag bodies at full speed</talentdescription.ntsp_rapiddeoploymentdrag>
   <talentname.ntsp_humanmachine>The human machine</talentname.ntsp_humanmachine>
   <talentname.ntsp_firstaidtraining>First aid advances</talentname.ntsp_firstaidtraining>
   <talentname.ntsp_mannitol>Mannitol maniac</talentname.ntsp_mannitol>
@@ -78,5 +80,8 @@
   <talentname.ntsp_selfcare>Self Care</talentname.ntsp_selfcare>
   <talentdescription.ntsp_selfcarepsychosis>Gain [amount]% [affliction] resistance</talentdescription.ntsp_selfcarepsychosis>
   <talentdescription.ntsp_selfcareunlocktree>Gain the talents you haven't unlocked in this tree.</talentdescription.ntsp_selfcareunlocktree>
+  <talentname.ntsp_therapisttintraining>Therapist-in-Training</talentname.ntsp_therapisttintraining>
+  <talentdescription.ntsp_therapisttintraining>Gain [amount]% extra health.</talentdescription.ntsp_therapisttintraining>\
+  <talentname.ntsp_properfol>Don't you die on me, Soldier!</talentname.ntsp_properfol>
   <!-- <talentdescription.ntsp_selfcarepsychosis:>Gain 50% psychosis resistance</talentdescription.ntsp_selfcarepsychosis> this will be for the self use medical items-->
 </infotexts>
