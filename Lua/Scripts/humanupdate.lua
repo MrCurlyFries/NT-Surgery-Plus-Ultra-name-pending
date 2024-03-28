@@ -8,7 +8,7 @@ local limbtypes={
     LimbType.Head}
 
 -- multipliers that are used in humanupdate are set here
-function NTSP.PreUpdateHuman(character)
+function NTSPU.PreUpdateHuman(character)
     -- under pressure talent
     if HF.HasAffliction(character,"underpressure") and HF.HasAffliction(character,"sym_unconsciousness") then
         NTC.SetMultiplier(character,"anyorgandamage",   0.5)
@@ -35,7 +35,7 @@ function NTSP.PreUpdateHuman(character)
     end
 
     -- sterility during surgery
-    if NT.Config.NTSPenableSurgicalInfection and HF.HasAffliction(character,"surgeryincision") then
+    if NTConfig.Get("NTSP_enableSurgicalInfection",false) and HF.HasAffliction(character,"surgeryincision") then
 
         local sterility = 50
 
@@ -89,7 +89,7 @@ function NTSP.PreUpdateHuman(character)
 
         if HF.Chance(sepsischance) then
             -- oops...
-            NTSP.TriggerUnsterilityEvent(character)
+            NTSPU.TriggerUnsterilityEvent(character)
         end
     end
 
@@ -100,7 +100,7 @@ function NTSP.PreUpdateHuman(character)
 end
 
 -- multipliers that are used outside of humanupdate are set here
-function NTSP.PostUpdateHuman(character)
+function NTSPU.PostUpdateHuman(character)
     -- preventative permit talent
     if HF.HasAffliction(character,"preventativepermit") then
         NTC.SetMultiplier(character,"anyfracturechance",    0.5)
@@ -125,6 +125,6 @@ end
 
 -- this function can be overriden by other mods
 -- nudge nudge, wink wink
-function NTSP.TriggerUnsterilityEvent(character) 
+function NTSPU.TriggerUnsterilityEvent(character) 
     HF.AddAffliction(character,"sepsis",1)
 end

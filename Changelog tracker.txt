@@ -1,25 +1,3 @@
 changelog
 
-Added ntsp_therapisttintraining to T2 Dabbling Pharmacist
-Which adds 20% hp and the artificial brain and brain in a jar recipes.
-
-changed ntsp_properfol to also have ntsp_traumaticshock talents for T4 Field Surgeon
-
-Added I'm a Surgeon not a... Talent to T3 of Field Surgeon
-gives 15 to;
-Helm
-Electrical Engineering
-Mechanical Engineering
-Weapons
-aaaand Medical
-
-added movenormallywhiledragging flag to the Rapid Deployment talent for T1 Field Surgeon
-- move at full speed while carrying people
-
-Added resistance Talents to T3 Field Surgeon
-Please stop shooting me for fun captain
-    Gives 25% resistance to lacerations and gunshot wounds
-I've fallen and I can't get up!
-    Gives 30% resistance to stuns and 25% resistance to blunt force trauma
-
-Buffed range of under pressure a small amount (to 200)
+Uploaded to github as a backup
