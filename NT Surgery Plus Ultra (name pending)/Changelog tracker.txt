@@ -1,0 +1,6 @@
+changelog
+
+Fixed sterility checks not getting a bonus from the Ultrasonic Cleaner talent
+
+Fixed surgical skillbook triggering talents, ie Trickle Down from the captain tree giving the whole crew surgical skill.
+

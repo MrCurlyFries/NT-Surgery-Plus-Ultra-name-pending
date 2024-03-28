@@ -1,0 +1,141 @@
+Tree 1 Ethical Medicine (Organs/Genetics) **(Renamed)**
+(make default organ storage item 2 slots, then the upgrade for the container/crate)
+-- Tier 1 --
+~Fine bedside manner~* **(Added)** w/(tripled range)
+(Change it so 'next to' gives a decaying debuff over X seconds, and giving meds provides a longer less effective buff)
+(X is hard, needs to be high enough to not sit next to people and be bored, but low enough it isn't a free buff)
+(could also make AOE larger, probably the easiest and most efficient implementation - not as fun though)
+Patients next to you passively heal at an accelerated rate. 
+The effect is soubled if they are laying in a bed.
+Whenever you finish a mission without a cremember dying, 
+you gain an additional 40% exp and gain the item 'Medical Misconduct (surgeon skillbook)'
+Assistant deaths dont count (pretty sure this is bugged for surgeon though)
+
+
+-- Tier 2 -- **(Added)**
+~Fish are specimens, not food~ (lowered from medic chance)
+(add check to see if there are others with this skill to make it so you dont get 50 genetics per monster?)
+(or perhaps make it work alongside the currect genetics stuff to give a higher tier on refinement?)
+When you or another crewmember kills a monster while outside 
+your submarine, you have a 30% (currently 35%) chance of finding a random 
+genetic material on it. 
+
+~Keeping on the pressure~ **(Added)** still have to be holding the patent for this to apply however.
+(Same change as bedside manner, to make surgeon less static)
+Patients next to you gain 50% bloodloss, organ damage and neurotrauma resistance
+
+-- Tier 3 -- **(Added)**
+~Surgeons intuition~ (need to find medical cabinet tag) (currenctly applies to all med cabs and alien tags cabinets)
+Whenever you open a medical related container (alien, wreck/outpost medical) you have a
+30% chance to find additional loot.
+
+~Unspecialised Specialist~ **(Added)** (sortof, second part isnt)
+Gain a bonus 20 surgeon skill.
+For every 5 surgeon skill, gain a bonus 1 to Medical. (might be difficult to implement)
+(perhaps raise medical and suregon skill cap?)
+
+
+-- Tier 4 -- **(Added)* (Minus recipe)
+~My names Bruce (Reitz)~ or ~Rimworld Medic~ (bruce would probably be better? funnier and intrigue the player.)
+Organs that you transplant never get rejected.
+Organs you extract sell for full price.
+(gain access to a medical helmet + facemask recipe)
+
+
+
+Tree 2 Dabbling Pharmacist (Pills here!)
+(Pill canister and or pill box item?)
+(Love to look into a botany flavoured talent, - home grown drugs!)
+
+-- Tier 1 --
+~Ultrasonic Cleaner~ **Added**
+Drainages, endovascular balloons and needles no longer get consumed when you use them.
++30 to sterility
+
+~Therapist-in-Training~ **(Added)**
+Gives artifial brain recipe and brain in a jar
+Gain the pill cannister and pill box recipes
+--Medical items you apply gain an additional 20% potency--
+gain 20% max health
+(make non needle? make sure it works with pills, 
+possibly with an extra potency bonus)
+(growth - or better yet - plant deconstruction yield modifier goes here?)
+
+
+-- Tier 2 -- **(Added)**
+~Preperation Package~ (passive suture gain)
+Gain 3 sutures, a bandage and 1 opium a round
+(... can i add top surgery XD)
+
+
+~Top Surgery~ ---Will be added Later---
+Adds surgery method to change gender,
+adds hormone pills that give estrogen/testosterone buff
+testosterone gives melee damage buff
+estrogen gives dmg resistance
+taking too much of either will give organ damage and set gender
+
+-- Tier 3 --
+~Unethical Sourcing~
+Unlock recipe: Experimental Treatment.
+If you apply experimental treatment, roll from larger set of effects, and roll and additonal time. (difficult math)
+
+~Mannitol Maniac~
+Unlock recipe: Mannitol plus.
+Gain 20% neurotrauma resistance. (dont know if resistance applies to neurotrauma, TESTME)
+Gain 10% organ damage resistance.
+
+-- Tier 4 --
+~Self-care~
+Healing items applied by you, to you gain an additonal 25% strength
+Gain 50% psychosis and 90% drunk resistance
+Unlock all skills in this tree (see engineer talent tree method)
+
+
+
+Tree 3 Field Surgeon (Mostly unchanged) (fit in an aftercare joke?)
+-- Tier 1 --
+~Rapid Deployment~* **Done**
+You can drag characters at full speed.
+Gain an additional 50% Swimming Speed.
+Gain additional movement speed equal to 30% of your Surgery skill.
+
+-- Tier 2 --
+~Please stop shooting me for fun captain~
+Gain an additonal 25% Gunshot Wound resistance.
+Gain an additional 25% Bite Wound resistance.
+
+~Stoic Focus~
+Gain 30% Stun resistance.
+Gain 25% Blunt Force Trauma resistance.
+(Gain 5% faster bleed recovery. Probably would be overpowered)
+
+-- Tier 3 -- **(added)**
+~I'm a Surgeon, not a...~ (added medical bonus to make enticing)
+Gain a bonus of 15 to Electrical Engineering.
+Gain a bonus of 15 to Mechanical Engineering.
+Gain a bonus of 15 to Helm.
+Gain a bonus of 15 to Weapons.
+Gain a bonus of 15 to Medical.
+
+~Preventative Permit~*
+The last person you ordered gains 35% damage resistance and is 
+less likely to suffer serious injuries.
+Giving an order to a new character will remove the previous buff.
+
+-- Tier 4 --
+~Don't you die on me, Soldier!~
+Propofol that you administer instantly takes effect.
+People you operate on suffer less traumatic shock.
+--Gain 1 mk and 1exp per medical item applied to anything.--
+
+
+
+
+
+(sword size scalpel
+
+this is my medical applicator (is gun)
+combat surgeon
+
+)
