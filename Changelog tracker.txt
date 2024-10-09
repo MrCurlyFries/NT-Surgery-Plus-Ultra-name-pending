@@ -1,3 +1,2 @@
-changelog
-
-Uploaded to github as a backup
+Fixed aed not having a talent to unlock it
+Fixed auto injector headset not being in the description of a talent

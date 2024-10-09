@@ -1,5 +1,6 @@
 
 NTSPU = {} -- Neurotrauma Surgery Plus
+NTSP = {} -- this existing should make surgical skill gain work?
 NTSPU.Name="NT Surgery Plus Ultra (name Pending)"
 NTSPU.Version = "A1.2.8"
 NTSPU.VersionNum = 01020401
