@@ -37,7 +37,7 @@
   <!-- JOBS -->
   <jobname.surgeon>Surgeon</jobname.surgeon>
   <jobdescription.surgeon>While the medical doctor is better suited for first aid and quick response, the surgeon specializes in the optimization of surgical procedures. Lower risk of infection, faster execution, if it's related to surgery, the surgeon has it.</jobdescription.surgeon>
-  <skillname.surgery>Surgical</skillname.surgery>
+  <skillname.surgery>Surgery</skillname.surgery>
   <!-- TALENTS -->
   <talenttree.ethicalmedicine>Ethical Medicine</talenttree.ethicalmedicine>
   <talenttree.dabblingpharmacist>Dabbling Pharmacist</talenttree.dabblingpharmacist>
