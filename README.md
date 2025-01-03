@@ -1,13 +1,9 @@
-NT-Surgery-Plus-Ultra-name-pending
+## NT-Surgery-Plus-Ultra-name-pending
 
-To use this version instead of the updated version, download the mod by finding the releases section on the right hand side of the page,
-specifically the release called "Pre Neurotrauma dependancy change", click on either the zip or tar.gz links
+For whatever reasion you would like to use the older version compatible with Mannatu's neurotrauma, please use the [Mannatu-Neurotrauma](https://github.com/MrCurlyFries/NT-Surgery-Plus-Ultra-name-pending/tree/Mannatu-Neurotrauma) branch
 
-While thats downloading go to your steam library, find barotrauma in your library and right click it, go to manage, then click on browse local files,
-Then locate the folder called LocalMods, extract the folder from the file downloaded before and put it in the LocalMods folder 
--- 7zip works if you dont otherwise have the ability to extract the file.
+NT Surgery Plus Ultra (Name Pending) is a (continually in progress) is an addon for the Neurotrauma mod for barotrauma / a replacement mod for the now deprecated NT Surgery Plus Created by [Mannatu.](https://steamcommunity.com/id/Mannatu)
 
-If your barotrauma game is open, reload your mod list, if the mod dosent show up restart the game
-You should have a mod with the same name as normal, but with a grey pencil icon next to it, use that instead of the usual mod.
+This mod aims to make the Surgeon job a little more interesting and a lot more than "If i don't stand next to them it'll take them ages to heal/die."
 
-Best of luck :)
+Please see the [steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2857967391) page for more info. 
