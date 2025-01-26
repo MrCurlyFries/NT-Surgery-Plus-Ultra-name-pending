@@ -19,10 +19,13 @@ if (Game.IsMultiplayer and SERVER) or not Game.IsMultiplayer then
 
         dofile(NTSPU.Path.."/Lua/Scripts/humanupdate.lua")
         dofile(NTSPU.Path.."/Lua/Scripts/items.lua")
-        dofile(NTSPU.Path.."/Lua/Scripts/configdata.lua")
 
         NTC.AddPreHumanUpdateHook(NTSPU.PreUpdateHuman)
         NTC.AddHumanUpdateHook(NTSPU.PostUpdateHuman)
     end,1)
 
 end
+
+Timer.Wait(function()
+        dofile(NTSPU.Path.."/Lua/Scripts/configdata.lua")
+end, 1)

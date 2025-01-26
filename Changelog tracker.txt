@@ -1,20 +1,4 @@
-Changed Surgical skill to be called Surgery (as the skill is actually referred to in the mod files)
+https://github.com/MrCurlyFries/NT-Surgery-Plus-Ultra-name-pending/issues/4
 
-Changed the skill requirement hint for the following items to Surgical skill - skill requirement is still handled in Neurotrauma's items.Lua
-scalpel 
-advretractors
-surgicaldrill
-surgerysaw
-tweezers
-liver scalpel
-organscalpel_lungs
-organscalpel_heart
-organscalpel_kidneys
-organscalpel_brain
-osteosynthesisimplantsx
-spinalimplant
-braintransplant 
-livertransplant
-hearttransplant
-lungtransplant
-kidneytransplant
+Fixed the config options not showing for servers as listed in the above issue
+Thanks to Undead for this.
