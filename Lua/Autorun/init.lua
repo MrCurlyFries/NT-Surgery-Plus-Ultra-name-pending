@@ -2,10 +2,10 @@
 NTSPU = {} -- Neurotrauma Surgery Plus
 NTSP = {} -- this existing should make surgical skill gain work?
 NTSPU.Name="NT Surgery Plus Ultra (name Pending)"
-NTSPU.Version = "A1.2.8"
+NTSPU.Version = "A4.0"
 NTSPU.VersionNum = 01020401
-NTSPU.MinNTVersion = "A1.7.12"
-NTSPU.MinNTVersionNum = 01080700
+NTSPU.MinNTVersion = "A1.10.0"
+NTSPU.MinNTVersionNum = 01100000
 NTSPU.Path = table.pack(...)[1]
 Timer.Wait(function() if NTC ~= nil and NTC.RegisterExpansion ~= nil then NTC.RegisterExpansion(NTSPU) end end,1)
 

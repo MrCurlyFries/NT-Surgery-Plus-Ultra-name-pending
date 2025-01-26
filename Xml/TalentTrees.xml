@@ -3,12 +3,12 @@
   <TalentTrees>
     <TalentTree jobidentifier="surgeon">
       <SubTree identifier="surgeon_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="3">
+        <TalentOptions requiredtalents="2" maxchosentalents="3">
           <TalentOption identifier="ntsp_surgeonsintuition" />
           <TalentOption identifier="ntsp_adrenalinepump" />
           <TalentOption identifier="ntsp_autodidact" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="3">
+        <TalentOptions requiredtalents="2" maxchosentalents="3">
           <TalentOption identifier="ntsp_homecarepackage" />
           <TalentOption identifier="ntsp_injectorgeneral" />
           <TalentOption identifier="ntsp_fellowtoaster" />

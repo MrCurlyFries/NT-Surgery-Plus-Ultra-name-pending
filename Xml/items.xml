@@ -319,7 +319,7 @@
   </Override>
   <!-- Override paste block to fix medical skill is shown instead of surgical skill on tooltip. *replacing the skill hint with lua is probably a better idea, but this is easier* -->
   <Override>
-    <Item name="" identifier="advscalpel" category="Equipment" cargocontaineridentifier="mediccrate" Tags="smallitem,medical,surgery,surgerytool" description="" useinhealthinterface="True" scale="0.250">
+    <Item name="" identifier="advscalpel" category="Equipment" cargocontaineridentifier="mediccrate" Tags="smallitem,medical,surgery,surgerytool,basicscalpel" description="" useinhealthinterface="True" scale="0.250">
       <PreferredContainer primary="toxcontainer" spawnprobability="1" />
       <PreferredContainer primary="locker" />
       <Fabricate suitablefabricators="fabricator">
@@ -339,6 +339,20 @@
       <Body width="65" height="15" density="50" />
       <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="-7,-5" holdangle="60" reload="1.0">
         <StatusEffect type="OnUse" target="Limb" comparison="and"></StatusEffect>
+        <Attack structuredamage="0" itemdamage="2" targetimpulse="2">
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="bleeding" strength="2" />
+        <Affliction identifier="stun" strength="0.05" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character"/>
+          <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" selectionmode="random" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
+        </StatusEffect>
+      </Attack>
       </MeleeWeapon>
       <SkillRequirementHint identifier="surgery" level="30" />
     </Item>
@@ -859,4 +873,47 @@
       <SkillRequirementHint identifier="surgery" level="100" />
     </Item>
   </Override>
+  <!-- end paste block for surgery skill overwrite-->
+  <Item name="OrganCareSystem" identifier="organtoolboxv2" category="Equipment" tags="smallitem,mobilecontainer,tool,toolbox,refrigerated,refrigerated2" cargocontaineridentifier="" showcontentsintooltip="true" Scale="0.5" fireproof="true" impactsoundtag="impact_metal_heavy" RequireAimToUse="True" description="">
+      <PreferredContainer primary="medcab" minamount="1" maxamount="1" spawnprobability="1" />
+      <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.04" />
+      <PreferredContainer secondary="locker" />
+      <Price baseprice="2000">
+        <Price storeidentifier="merchantmedical" sold="true" multiplier="0.7" minavailable="2" />
+      </Price>
+      <Deconstruct time="10">
+        <Item identifier="steel" />
+        <Item identifier="potassium" amount="2" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20">
+        <RequiredSkill identifier="mechanical" level="20" />
+        <Item identifier="steel" />
+        <Item identifier="potassium" amount="2" />
+        <Item identifier="phosphorus" />
+      </Fabricate>
+      <Price baseprice="25">
+        <Price locationtype="outpost" multiplier="1" minavailable="4" />
+        <Price locationtype="city" multiplier="0.9" minavailable="6" />
+        <Price locationtype="research" multiplier="1.25" minavailable="1" />
+        <Price locationtype="military" multiplier="1.25" minavailable="1" />
+        <Price locationtype="mine" multiplier="1.25" minavailable="8" />
+      </Price>
+      <Sprite texture="%ModDir%/Images/MainAtlas.png" sourcerect="0,389,88,67" depth="0.6" origin="0.50795454,0.5597015" />
+      <Body width="90" height="60" density="20" />
+      <MeleeWeapon slots="RightHand,LeftHand,Any" controlpose="true" aimpos="45,10" handle1="0,18" holdangle="90" reload="1" range="50" combatpriority="6" msg="ItemMsgPickUpSelect">
+        <Attack structuredamage="0" itemdamage="1" targetimpulse="2">
+          <Affliction identifier="blunttrauma" strength="2" />
+          <Affliction identifier="stun" strength="0.6" />
+          <StatusEffect type="OnUse" target="UseTarget">
+            <Conditional entitytype="eq Character" />
+            <Sound file="Content/Items/Weapons/Smack1.ogg" selectionmode="random" range="500" />
+            <Sound file="Content/Items/Weapons/Smack2.ogg" range="500" />
+          </StatusEffect>
+        </Attack>
+      </MeleeWeapon>
+      <ItemContainer capacity="1" keepopenwhenequipped="true" movableframe="true">
+        <Containable items="organ" excludeditems="toolbelt,toolbox" />
+      </ItemContainer>
+      <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
+    </Item>
 </Items>

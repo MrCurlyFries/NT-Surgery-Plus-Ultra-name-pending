@@ -34,7 +34,8 @@
       </Description>
       <AbilityGroupEffect abilityeffecttype="OnRoundEnd">
         <Abilities>
-          <CharacterAbilityResetPermanentStat statidentifier="NTgeneharvester_*" value="1" setvalue="true" />
+          <CharacterAbilityResetPermanentStat statidentifier="NTgeneharvester_*" value="1"
+            setvalue="true" />
         </Abilities>
       </AbilityGroupEffect>
       <AbilityGroupEffect abilityeffecttype="OnLootCharacter">
@@ -129,7 +130,8 @@
         <Replace tag="[amount]" value="20" color="gui.green" />
       </Description>
       <Description tag="talentdescription.unlockrecipe">
-        <Replace tag="[itemname]" value="entityname.artificialbrain,entityname.brainjar" color="gui.orange" />
+        <Replace tag="[itemname]" value="entityname.artificialbrain,entityname.brainjar"
+          color="gui.orange" />
       </Description>
       <Abilities>
         <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="0.2" />
@@ -145,7 +147,7 @@
       </Description>
     </Talent>
     <Talent identifier="ntsp_homecarepackage">
-      <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="7,1" sheetelementsize="128,128" />
+      <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="7,1" sheetelementsize="128,128" sourcerect="896,128,128,128" origin="0.5,0.5" />
       <Description tag="talentdescription.ntsp_homecarepackage"></Description>
       <Description tag="talentdescription.gainitem">
         <Replace tag="[amount]" value="3" color="gui.green" />
@@ -212,7 +214,8 @@
       </AbilityGroupEffect>
       <AbilityGroupInterval interval="0.5">
         <Abilities>
-          <CharacterAbilityModifyStatToSkill stattype="MovementSpeed" maxvalue="0.25" skillidentifier="surgery" />
+          <CharacterAbilityModifyStatToSkill stattype="MovementSpeed" maxvalue="0.25"
+            skillidentifier="surgery" />
         </Abilities>
       </AbilityGroupInterval>
     </Talent>
@@ -411,22 +414,16 @@
     </Talent>
     <Talent identifier="ntsp_adrenalinepump">
       <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,4" sheetelementsize="128,128" />
-      <Description tag="talentdescription.ntsp_rapiddeoploymentdrag" />
       <Description tag="talentdescription.ntsp_rapiddeoployment">
-        <Replace tag="[skillpercentage]" value="10" color="gui.green" />
+        <Replace tag="[skillpercentage]" value="20" color="gui.green" />
       </Description>
       <AbilityGroupInterval interval="0.5">
         <Abilities>
-          <CharacterAbilityModifyStatToSkill stattype="MovementSpeed" maxvalue="0.1" skillidentifier="surgery" />
+          <CharacterAbilityModifyStatToSkill stattype="MovementSpeed" maxvalue="0.2" skillidentifier="surgery" />
         </Abilities>
       </AbilityGroupInterval>
-      <AbilityGroupEffect abilityeffecttype="None">
-        <Abilities>
-          <CharacterAbilityGiveFlag flagtype="MoveNormallyWhileDragging" />
-        </Abilities>
-      </AbilityGroupEffect>
     </Talent>
-    <Talent identifier="ntsp_autodidact">
+ <!--   <Talent identifier="ntsp_autodidact">
       <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,2" sheetelementsize="128,128" />
       <Description tag="talentdescription.ntsp_autodidact">
         <Replace tag="[amount]" value="15" color="gui.green" />
@@ -436,7 +433,8 @@
       </Description>
       <AbilityGroupEffect abilityeffecttype="OnAnyMissionCompleted">
         <Conditions>
-          <AbilityConditionHasPermanentStat statidentifier="autodidact" min="1" />
+          <AbilityConditionHasPermanentStat statidentifier="autodidactdidsurgery" min="1" />
+          <AbilityConditionHasPermanentStat statidentifier="autodidactnosepsis" min="gte 1" />
         </Conditions>
         <Abilities>
           <CharacterAbilityModifyValue multiplyvalue="1.15" />
@@ -454,6 +452,24 @@
           <CharacterAbilityGivePermanentStat statidentifier="autodidact" value="1" />
         </Abilities>
       </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="aed" />
+    </Talent> -->
+    <Talent identifier="ntsp_autodidact">
+      <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,2" sheetelementsize="128,128" />
+      <Description tag="talentdescription.ntsp_autodidact">
+        <Replace tag="[amount]" value="15" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.aed" color="gui.orange" />
+      </Description>
+    <AbilityGroupEffect abilityeffecttype="OnGainMissionExperience">
+      <Conditions>
+        <AbilityConditionNoCrewDied/>
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyValue multiplyvalue="1.1"/>
+      </Abilities>
+    </AbilityGroupEffect>
       <AddedRecipe itemidentifier="aed" />
     </Talent>
     <Talent identifier="ntsp_injectorgeneral">
@@ -521,6 +537,28 @@
         </Abilities>
       </AbilityGroupEffect>
       <AddedRecipe itemidentifier="autoinjectorheadset" />
+    </Talent>
+    <Talent identifier="aggressivesurgeoning">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,0" sheetelementsize="128,128"/>
+    <Description tag="talentdescription.aggressiveengineering">
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="basicscalpel"/>
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="2"/>
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+  <Talent identifier="heavylifting">
+      <Icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="6,0" sheetelementsize="128,128" sourcerect="768,0,128,128" origin="0.5,0.5" />
+      <Description tag="talentdescription.ntsp_rapiddeoploymentdrag" />
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilityGiveFlag flagtype="MoveNormallyWhileDragging" />
+        </Abilities>
+      </AbilityGroupEffect>
     </Talent>
   </Talents>
 </Override>

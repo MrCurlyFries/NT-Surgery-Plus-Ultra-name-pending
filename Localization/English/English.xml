@@ -21,6 +21,9 @@
   <entitydescription.manualtriagetag>A manual triage tag. Apply to the legs for green, arms for yellow, torso for red and head for black.</entitydescription.manualtriagetag>
   <entityname.experimentaltreatment>Experimental treatment</entityname.experimentaltreatment>
   <entitydescription.experimentaltreatment>A highly experimental drug that can cause either a little (or a lot) of good (or bad).</entitydescription.experimentaltreatment>
+  <entityname.organtoolboxv2>Organ-Care-System™</entityname.organtoolboxv2>
+  <entitydescription.organtoolboxv2>The Organ-Care-System™ (or OCS for short) can store and fully repair organs that have lost up to 25% durability, albeit slowly.</entitydescription.organtoolboxv2>
+  
   <!-- AFFLICTIONS -->
   <afflictionname.preventativepermit>Preventative Permit</afflictionname.preventativepermit>
   <afflictiondescription.preventativepermit>Serious injury is less likely.</afflictiondescription.preventativepermit>

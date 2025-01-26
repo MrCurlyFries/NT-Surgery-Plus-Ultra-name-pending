@@ -1,4 +1,33 @@
-https://github.com/MrCurlyFries/NT-Surgery-Plus-Ultra-name-pending/issues/4
+Fixed autodidact not providing exp
 
-Fixed the config options not showing for servers as listed in the above issue
-Thanks to Undead for this.
+Item Addition:
+Added the Organ Care system
+regular refrigeration crates can recover the durability of a contained organ from 90%, whereas this item can restore them from 75%, but slowly (at 1/10th the speed)
+
+Changes:
+Does not work... yet!!!Added hold-crouch option to injector general so you can chose to (maybe) avoid organ failure from giving antibiotics!!!!
+Scalpel now does damage when used to attack, currently does screwdriver levels of damage.
+
+Skill tree rework
+-The Surgeon skill tree has not been updated in a while, thanks to some super good suggestions and long discussions by @echo https://steamcommunity.com/profiles/76561198040753076 , it now has been updated!
+
+You now require 2 talents from the first and second sets of skills to progress down the tree.
+(TODO: tree to be organised)
+Adrenaline Pump: gain movement speed equal to 20% of your surgery skill
+Autodidact:  Gain 10% bonus exp whenever you complete a mission and noone died. Assistants do not count. Unlock the automated external defib recipe.
+Injector General: Medical items you apply gain 20% effectiveness.
+
+Heavy lifting: Drag bodies at full speed
+Agressive Surgeoning: The basic scalpel does 3x damage
+Preperation Package: At the start of every round gain 3x Suture 1x O- Blood pack and 1x Opium
+Clean Suite: Gain 15% bonus exp whenever you complete a mission where you performed medical services on a crew member *and* they didnt gain sepsis because of your actions.
+(check to make sure this actually works)--- dosent work, lua time aaaaaaaaaaaaaaaaaaaaaaaaa
+Unethical/experimental treatment: unlock experimental treatment recipe
+
+
+
+
+
+
+
+
