@@ -5,7 +5,7 @@ Added the Organ Care system
 regular refrigeration crates can recover the durability of a contained organ from 90%, whereas this item can restore them from 75%, but slowly (at 1/10th the speed)
 
 Changes:
-Does not work... yet!!!Added hold-crouch option to injector general so you can chose to (maybe) avoid organ failure from giving antibiotics!!!!
+(TODO)Added hold-crouch option to injector general so you can chose to (maybe) avoid organ failure from giving antibiotics.
 Scalpel now does damage when used to attack, currently does screwdriver levels of damage.
 
 Skill tree rework
@@ -20,14 +20,5 @@ Injector General: Medical items you apply gain 20% effectiveness.
 Heavy lifting: Drag bodies at full speed
 Agressive Surgeoning: The basic scalpel does 3x damage
 Preperation Package: At the start of every round gain 3x Suture 1x O- Blood pack and 1x Opium
-Clean Suite: Gain 15% bonus exp whenever you complete a mission where you performed medical services on a crew member *and* they didnt gain sepsis because of your actions.
-(check to make sure this actually works)--- dosent work, lua time aaaaaaaaaaaaaaaaaaaaaaaaa
+--Clean Suite: Gain 15% bonus exp whenever you complete a mission where you performed medical services on a crew member and they didnt gain sepsis because of your actions.
 Unethical/experimental treatment: unlock experimental treatment recipe
-
-
-
-
-
-
-
-
