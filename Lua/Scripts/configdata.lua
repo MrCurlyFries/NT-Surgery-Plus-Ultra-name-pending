@@ -1,8 +1,38 @@
 NTSPU.ConfigData = {
-    NTSP_header1 = {name=NTSPU.Name ,type="category"},
+    -- Header for NT Surgery Plus Ultra configuration
+    NTSP_header1 = {
+        name = NTSPU.Name,
+        type = "category"
+    },
 
-    NTSP_enableSurgicalInfection =    {name="surgical infection",default=true,type="bool",          difficultyCharacteristics={multiplier=0.5}},
-    NTSP_enableSurgerySkill =         {name="surgery skill",default=true,type="bool"},
-    NT_beepboop =           {name="fractures remove casts!",default=true,type="bool",    difficultyCharacteristics={multiplier=0.5},description="when receiving damage that would cause a fracture, remove plaster casts on the limb"},
+    -- Enable or disable surgical infections
+    NTSP_enableSurgicalInfection = {
+        name = "Surgical Infection",
+        default = true,
+        type = "bool",
+        difficultyCharacteristics = {
+            multiplier = 0.5
+        }
+    },
+
+    -- Enable or disable surgery skill requirements
+    NTSP_enableSurgerySkill = {
+        name = "Surgery Skill",
+        default = true,
+        type = "bool"
+    },
+
+    -- Allow fractures to remove plaster casts upon receiving damage
+    NT_beepboop = {
+        name = "Fractures Remove Casts!",
+        default = true,
+        type = "bool",
+        difficultyCharacteristics = {
+            multiplier = 0.5
+        },
+        description = "When receiving damage that would cause a fracture, remove plaster casts on the limb."
+    }
 }
+
+-- Add configuration options to NTConfig
 NTConfig.AddConfigOptions(NTSPU)
