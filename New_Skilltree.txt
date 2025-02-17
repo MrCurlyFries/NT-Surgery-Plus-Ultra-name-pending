@@ -1,50 +1,58 @@
 =-~-= T1 =-~-=
-Adrenaline PumpDrag bodies at full speed
-  Gain movement speed equal to 20% of your surgery skill
+- Adrenaline Pump
+    Gain movement speed equal to 20% of your surgery skill
 (reduced from original 25 to 20, second generic speed talent has been removed)
 
-Autodidact
-  Gain 10% bonus exp whenever you complete a mission and noone died. Assistants do count.
-  Unlock the automated external defib recipe
+- Autodidact
+    Gain 10% bonus exp whenever you complete a mission and noone died. Assistants do count.
+    Unlock the automated external defib recipe
 (kept aed recipe, added stipulation that even assistants cant die)
 
-Surgeons Intuition 
-  Whenever you open a alien container for the first time you have a 30% chance of finding additional items(keeping in the meantime. will be modified soon*)
+- Surgeons Intuition 
+    Whenever you open a alien container for the first time you have a 30% chance of finding additional items
+    (keeping in the meantime. will be modified soon*)
 
-Injector General
-  Medical items you apply to others gain 20% effectiveness.
-  Holding crouch wile applying medical items will disable this.
+- Injector General
+    Medical items you apply to others gain 20% effectiveness.
+    Holding crouch wile applying medical items will disable this.
 
 =-~-= T2 =-~-=
-Heavy Lifting
-  Drag bodies at full speed
+- Heavy Lifting
+    Drag bodies at full speed
 
-Clean Suite
-  Gain 15% bonus exp whenever you complete a mission where you performed medical services on a crew member
-and they didnt gain sepsis because of your actions.
+- Clean Suite
+    Gain 15% bonus exp whenever you complete a mission where you performed medical services on a crew member
+    - *and* they didnt gain sepsis because of your actions.
 (specified due to surgeons actions)
 
-Preperation Package
-  At the start of every round, gain:
-  3x Suture
-  1x Blood pack O-
-  1x Opium
-(kept as original, thoughts on recipe to halve an opium for 2 doses of 50% strength and giving just one of those for this talent?)
+- Preperation Package
+    At the start of every round, gain:
+    3x Suture
+    1x Blood pack O-
+    1x Opium
 
-Aggressive Surgeoning
-  The basic scalpel does 3x damage
+- Aggressive Surgeoning
+    The basic scalpel does 3x damage
 (used similar name to similar engineer talent)
 
-Unethical Sourcing
-  Unlock recipe: Experimental Medicine
- 
+- Unethical Sourcing
+    Unlock recipe: Experimental Medicine
+
 =-~-= Dabbling Pharmacist =-~-= 
 Therapist-in-Training (Rank 1)
-  Unlock recipe: artificial brain recipe 
+  Unlock recipe: Artificial brain recipe 
   Unlock recipe: brain in a jar
   Unlock recipe: Mannitol Plus
 
-I'm a Surgeon, not a... (Rank 2)
+Expert Anesthetist (Rank 2)
+Crewmates near you gain 30% Opiate Addiction resistance. Propofol that you administer instantly takes effect.
+
+You got a License for that? (Rank 2)
+Reduced costs for hyperzine, deusizine
+Oxygenite shards can now be analyzed in a medical workbench to give 3x liquid oxygen, instead of 2 from deconstructing
+
+
+I'm a Surgeon, not a... (Rank 3)
   Select one of the following:
       Gain a bonus of 15 to Electrical Engineering.
       Gain a bonus of 15 to Mechanical Engineering.
@@ -53,30 +61,28 @@ I'm a Surgeon, not a... (Rank 2)
       Gain a bonus of 15 to Medical.
   Or Gain a bonus of 5 to all skills.
 
-??? (Rank 3)???
-
 Heart-in-a-Box (Rank 4)
   Craft an advanced organ storage solution that is capable of fully restoring transplants that have lost up to 25% health. 
   Unlock recipe: Organ Care System
 
 =-~-= Ethical Medicine =-~-=
-Under Pressure (Rank 1)
-  Patients next to you gain 50% blood loss, organ damage and neurotrauma resistance.
-(debating switching the above and below talent)
-
-Ultrasonic Cleaner (Rank 2)
+Ultrasonic Cleaner (Rank 1)
   Drainages, endovascular balloons and needles no longer get consumed when you use them.+30 to sterility.
 
+Under Pressure (Rank 2)
+  Patients next to you gain 50% blood loss, organ damage and neurotrauma resistance.
 Fine Bedside Manner (Rank 3)
   Patients next to you passively heal at an accelerated rate.
   The effect is doubled if they are laying in a bed.(possibly change to 'on sub' rather than near)
+
+Self Care (rank 3)
+  Once per mission, if your health has dropped below 40%, gain Combat Stimulant applied for 10 seconds. Passively gain 50% Psychosis resistance.
 
 My names Bruce... Reitz (Rank 4)
   Organs that you transplant never get rejected.
   Organs you extract sell for full price.
  
 =-~-= Field Surgeon =-~-= 
-
 Rapid Deployment  (Rank 1)
   You swim 40% faster if any crewmember is unconscious.
 (removed generic speed bonus and buffed swimming speed)
@@ -84,20 +90,14 @@ Rapid Deployment  (Rank 1)
 Please stop shooting me for fun captain (Rank 2)
   Gain an additional 40% Gunshot Wound resistance.
   Whenever you are attacked you lose the above resistance and instead gain 10% damage resistance for 4 seconds with a cooldown of 30 seconds
-(Liked original idea, thoughts on this? especially for initial gunshot damage? should also help mitigate 'surgeon has run into shotgun' problems. will not mitigate surgeon has run into husks and mudraptors nearly as much)
 
 Seen it all. (Rank 2)
   Gain 20% stun resistance.
   Whenever you are attacked, gain an additional 20% physical damage resistance for 4 seconds with a cooldown of 20 seconds
-(added stun resist)
 
 Preventative Permit  (Rank 3)
   The last person you ordered gains 35% damage resistance and is less likely to suffer serious injuries.
   Giving an order to a new character will remove the previous buff.
-
-Self Care (rank 4)
-  Once per mission, if your health has dropped below 40%, gain Combat Stimulant applied for 10 seconds. Gain 50% Psychosis resistance.
-(very neat idea imo)
 
 Don't you die on me, Soldier!  (Rank 4)
   Nearby crewmembers are unable to succumb to their injuries unless they give in.
