@@ -20,5 +20,5 @@ Injector General: Medical items you apply gain 20% effectiveness.
 Heavy lifting: Drag bodies at full speed
 Agressive Surgeoning: The basic scalpel does 3x damage
 Preperation Package: At the start of every round gain 3x Suture 1x O- Blood pack and 1x Opium
---Clean Suite: Gain 15% bonus exp whenever you complete a mission where you performed medical services on a crew member and they didnt gain sepsis because of your actions.
+(TODO, sepsis check not currently working)Clean Suite: Gain 15% bonus exp whenever you complete a mission where you performed medical services on a crew member and they didnt gain sepsis because of your actions.
 Unethical/experimental treatment: unlock experimental treatment recipe
